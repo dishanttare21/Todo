@@ -1,0 +1,25 @@
+.addTask{
+    width: 80%;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    margin: 1em auto;
+}
+.addTask > *{
+    display: block;
+}
+
+.title,.description{
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5em;
+    border: none;
+}
+
+.title:focus,.description:focus{
+    border: none;
+    outline: none;
+}
+.description{
+    resize: none;
+    height: max-content;
+}

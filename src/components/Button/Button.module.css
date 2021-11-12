@@ -1,0 +1,17 @@
+.btn{
+    padding: 0.6em 0.3em;
+    background: 0;
+    color: var(--btn-clr, black);
+    border: 2px solid var(--btn-clr, black);
+    cursor: pointer;
+}
+
+.btnRed{
+    --btn-clr: #C9302C;
+}
+.btnBlue{
+    --btn-clr: #286090;
+}
+.btnGreen{
+    --btn-clr: #449D44;
+}
