@@ -18,7 +18,7 @@ const Todos = ({ todos, setTodos, fetchTodos }) => {
     
     return (
         <Box sx={{ mx: "auto"}}>
-            <List sx={{ width: '80%', maxWidth: 650, bgcolor: 'background.paper', mx:"auto" }}>
+            <List sx={{ width: '100%', bgcolor: 'background.paper', mx:"auto" }}>
                 {todos.map(todo => (
                     <Todo
                         key={todo._id}
