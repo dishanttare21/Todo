@@ -30,7 +30,6 @@ const Todos = ({ todos, setTodos, fetchTodos }) => {
                         setTodos={setTodos}
                         fetchTodos={fetchTodos}
                         handleDelete={handleDelete} />
-
                 ))}
             </List>
         </Box>
